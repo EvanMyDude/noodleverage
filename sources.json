@@ -1,0 +1,21 @@
+{
+  "documents": [
+    {
+      "id": "lessons",
+      "title": "Lessons",
+      "fullTitle": "Top Lessons and Actions from April - June 2026",
+      "pdf": "Top Lessons and Actions from April - June 2026.pdf",
+      "audio": "April - June 2026 Top Lessons and Actions Audio.mp3",
+      "extract": "auto"
+    },
+    {
+      "id": "leverage",
+      "title": "Leverage",
+      "fullTitle": "NoodLeverage",
+      "pdf": "NoodLeverage.pdf",
+      "audio": "NoodLeverage Audio.mp3",
+      "extract": "auto",
+      "corrections": "sources/NoodLeverage.ocr-corrections.json"
+    }
+  ]
+}

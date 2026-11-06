@@ -1,0 +1,10 @@
+{
+  "name": "insight-reader",
+  "private": true,
+  "type": "module",
+  "description": "Local dark-mode reader that plays a narration MP3 with audio-aligned word highlighting.",
+  "scripts": {
+    "start": "python3 serve.py",
+    "test": "node --test tests/timeline.test.mjs && .venv/bin/python -m pytest -q tests"
+  }
+}

@@ -1,0 +1,13 @@
+.venv/
+data/cache/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.playwright-mcp/
+data/_verify/
+# generated, seek-accurate copies of the narration (rebuild with tools/build_alignment.py)
+data/*/narration.mp3
+.claude/
+.pytest_cache/
+# source narration MP3s (77 MB) stay out of git; the PDFs and generated alignment data are tracked
+/*.mp3

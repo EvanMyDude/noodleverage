@@ -1,0 +1,8 @@
+# Preprocessing / alignment toolchain (runs locally; the reader app itself needs none of this)
+faster-whisper==1.1.1
+torch==2.7.1
+torchaudio==2.7.1
+pdfplumber==0.11.7
+requests>=2.31
+numpy<2
+pytest>=8

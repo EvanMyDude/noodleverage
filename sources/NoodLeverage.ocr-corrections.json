@@ -1,0 +1,94 @@
+{
+  "about": "OCR fixes for NoodLeverage.pdf. Every entry was checked against the rendered page image (3x PDFKit render) before being added; the narration was used only to find candidates, never as the source of truth. 'find' matches a whole word (surrounding punctuation is kept); 'context' (optional) must appear within the surrounding words; 'page' (optional) limits the fix to one page. 'token': true requires the whole token to equal 'find'.",
+  "fixes": [
+    {
+      "find": "Al",
+      "replace": "AI",
+      "note": "Inter's capital I read as lowercase l; page shows AI (all occurrences, e.g. 'AI systems', '(AI).')"
+    },
+    {
+      "find": "l",
+      "replace": "I",
+      "note": "standalone lowercase l is the pronoun I on the page ('once I', 'know I')",
+      "token": true
+    },
+    {
+      "find": "|",
+      "replace": "I",
+      "page": 1,
+      "context": "versus what",
+      "note": "page: 'what I am building toward'",
+      "token": true
+    },
+    {
+      "find": "|",
+      "replace": "I",
+      "page": 3,
+      "context": "bottleneck",
+      "note": "page: 'bottleneck I can automate'",
+      "token": true
+    },
+    {
+      "find": "|",
+      "replace": "I",
+      "page": 4,
+      "context": "mindset",
+      "note": "page: 'mindset I moved to Fort Worth'",
+      "token": true
+    },
+    {
+      "find": "|",
+      "replace": "I",
+      "page": 9,
+      "context": "note that",
+      "note": "page: 'note that I define steps well'",
+      "token": true
+    },
+    {
+      "find": "/",
+      "replace": "I",
+      "page": 4,
+      "context": "as hard as",
+      "note": "page: 'as hard as I worked on'",
+      "token": true
+    },
+    {
+      "find": "1",
+      "replace": "I",
+      "page": 5,
+      "context": "on the day",
+      "note": "page: 'on the day I run out'",
+      "token": true
+    },
+    {
+      "find": "NextTime/OpenTheNote\"",
+      "replace": "NextTimeIOpenTheNote\"",
+      "page": 2,
+      "note": "page: '#When - NextTimeIOpenTheNote\"'"
+    },
+    {
+      "find": "complexity\"to",
+      "replace": "complexity\" to",
+      "page": 3,
+      "note": "page has a space: 'complexity\" to turn chaos'"
+    },
+    {
+      "find": "PRI'),",
+      "replace": "PRI\"),",
+      "page": 3,
+      "note": "page closes the quote with a double quote: 'PRI\"),'"
+    },
+    {
+      "find": "go?\"'",
+      "replace": "go?\"",
+      "page": 3,
+      "note": "no stray apostrophe on the page: 'to go?\" on page 3'"
+    },
+    {
+      "find": "\"Seriously,,",
+      "replace": "\"Seriously,,,",
+      "page": 5,
+      "note": "page shows three commas: '\"Seriously,,, during the day'"
+    }
+  ]
+}

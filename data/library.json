@@ -1,0 +1,28 @@
+{
+ "documents": [
+  {
+   "id": "lessons",
+   "title": "Lessons",
+   "fullTitle": "Top Lessons and Actions from April - June 2026",
+   "data": "data/lessons/alignment.json",
+   "audio": "April - June 2026 Top Lessons and Actions Audio.mp3",
+   "playback": "data/lessons/narration.mp3",
+   "playbackOffset": -0.0,
+   "duration": 455.445,
+   "pairId": "89ed22b9cf96c2f91f00d6a8",
+   "sync": "word"
+  },
+  {
+   "id": "leverage",
+   "title": "Leverage",
+   "fullTitle": "NoodLeverage",
+   "data": "data/leverage/alignment.json",
+   "audio": "NoodLeverage Audio.mp3",
+   "playback": "data/leverage/narration.mp3",
+   "playbackOffset": -0.0,
+   "duration": 1889.254,
+   "pairId": "545dd4038d4be7e628a0daea",
+   "sync": "word"
+  }
+ ]
+}
