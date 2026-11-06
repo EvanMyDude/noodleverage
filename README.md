@@ -13,6 +13,10 @@ Two document/audio pairs are set up (switch with the toggle at the top or `D`):
 
 ## Open it
 
+**Hosted** (after GitHub Pages is enabled for this repo): https://evanmydude.github.io/noodleverage/
+
+**Locally:**
+
 ```bash
 python3 serve.py
 ```
